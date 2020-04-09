@@ -1,44 +1,26 @@
-body {
-  margin: 0;
-  background: white;
-}
-
 #container{
   display: flex;
-  flex-direction: row;
-  padding: 50px;
 }
-
-#sidebar { 
-  width: 300px;
-  height: auto;
-  float: left;
-  background-color: #0582378c;
-  color: floralwhite;
-  padding-top: 50px;
-  margin-left: auto;
-  border-radius: 5px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+#sidebar{ 
+    width:250px;
+    height: auto;
+    float:left;
+    background-color: #1b3a5e;
+    color: floralwhite;
+    padding-top: 50px;
 }
 #mainbar {
-  width: 600px;
-  height: auto;
-  float: left;
-  margin-left: 10px;
-  margin-right: 20px;
-  /* margin-top: 50px; */
-  margin-right: auto;
-  background: #e8e4e430;
-  border-radius: 10px 50px 50px 10px;
-  padding-left: 20px;
-  padding-top: 10px;
+    width:450px;
+    height:auto;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
 }
-
-#sideblock-content {
+#sideblock-content{
   margin-left: 15px;
-  text-align: center;
+  text-align: left;
 }
-
 #side-block{
   padding-bottom: 15px;
   align-items: center;
@@ -55,23 +37,22 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
   }
 
 img{
     border-radius: 70%;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 span {
     display: block;
     text-align: center;
     font-size: small;
-}
-
+  }
 .display{
   text-align: center;
-  font-size: 15px;
-  margin: 10px 15px 15px 10px;
+  font-size: small;
 }
 
   /*main bar css*/
@@ -88,9 +69,8 @@ span {
 
 .mainheadings{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: small;
-  font-weight: lighter;
-  margin-bottom: 5px;
+    font-size: small;
+    font-weight: lighter;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -124,7 +104,6 @@ span {
     width: 80px;
     text-align: right;
     margin-top: -15px;
-    margin-left: 10px;
   }
 
   /* Place the container to the right */
@@ -149,6 +128,7 @@ span {
   /* The actual content */
   .content {
     padding: 0 20px;
+    background-color: white;
     position: relative;
   }
 
@@ -158,6 +138,7 @@ span {
   color: rgb(70, 70, 70);
 }
 .subheading{
+    margin-top: -15px;
     color: rgb(70, 70, 70);
     font-style: italic;
 }
@@ -165,21 +146,7 @@ span {
 ul.list-style{
   list-style-type: square; 
     margin-left: 10px;
+    margin-top: -10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
-}
-.icon-margin {
-  margin-right: 5px;
-}
-
-.address {
-  text-align: center;
-}
-
-.objective {
-  padding: 0 20px 0 33px;
-}
- 
-.list-style > li {
-  margin-top: 10px;
 }
