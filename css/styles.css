@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  background: white;
+}
+
+#container{
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+
+#sidebar { 
+  width: 300px;
+  height: auto;
+  float: left;
+  background-color: #0582378c;
+  color: floralwhite;
+  padding-top: 50px;
+  margin-left: auto;
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mainbar {
+  width: 600px;
+  height: auto;
+  float: left;
+  margin-left: 10px;
+  margin-right: 20px;
+  /* margin-top: 50px; */
+  margin-right: auto;
+  background: #e8e4e430;
+  border-radius: 10px 50px 50px 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#sideblock-content {
+  margin-left: 15px;
+  text-align: center;
+}
+
+#side-block{
+  padding-bottom: 15px;
+  align-items: center;
+  margin:15px;
+}
+#progressbar{
+    margin: 10px;
+    padding-bottom: 5px;
+}
+.icon-background {
+    color:floralwhite;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+img{
+    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+}
+span {
+    display: block;
+    text-align: center;
+    font-size: small;
+}
+
+.display{
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 15px 15px 10px;
+}
+
+  /*main bar css*/
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    color: rgb(70, 70, 70);
+}
+
+.contact{
+    font-size: small;
+    margin-top: 5px;
+}
+
+.mainheadings{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;  
+    margin-left: 10px;
+    margin-top: -10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    background-color: black;
+    top: 10px;
+    bottom: 0;
+    left: 21%;
+  }
+  
+  /* Container around content */
+  .container {
+    position: relative;
+    width: 400px;
+  }
+    
+  .datecontainer {
+    position: absolute;    
+    width: 80px;
+    text-align: right;
+    margin-top: -15px;
+    margin-left: 10px;
+  }
+
+  /* Place the container to the right */
+  .right {
+    left: 21%;
+  }  
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -5px;  
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border: 2px solid black;
+    top: 1px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 0 20px;
+    position: relative;
+  }
+
+ 
+/*Timeline sub heading*/
+.heading {
+  color: rgb(70, 70, 70);
+}
+.subheading{
+    color: rgb(70, 70, 70);
+    font-style: italic;
+}
+
+ul.list-style{
+  list-style-type: square; 
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.icon-margin {
+  margin-right: 5px;
+}
+
+.address {
+  text-align: center;
+}
+
+.objective {
+  padding: 0 20px 0 33px;
+}
+ 
+.list-style > li {
+  margin-top: 10px;
+}
