@@ -35,14 +35,16 @@ body {
 }
 
 #sideblock-content {
-  margin-left: 15px;
-  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
 }
 
 #side-block{
   padding-bottom: 15px;
   align-items: center;
   margin:15px;
+  margin-top:25px;
 }
 #progressbar{
     margin: 10px;
@@ -65,7 +67,6 @@ img{
 span {
     display: block;
     text-align: center;
-    font-size: small;
 }
 
 .display{
