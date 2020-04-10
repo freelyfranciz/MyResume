@@ -1,16 +1,20 @@
+body{
+margin: 0;
+}
+
 #container{
   display: flex;
 }
 #sidebar{ 
-    width:250px;
+    width:300px;
     height: auto;
-    float:left;
+    float: left;
     background-color: #1b3a5e;
     color: floralwhite;
     padding-top: 50px;
 }
 #mainbar {
-    width:450px;
+    width:550px;
     height:auto;
     float: left;
     margin-left: 20px;
@@ -18,13 +22,14 @@
     margin-top: 50px;
 }
 #sideblock-content{
-  margin-left: 15px;
+  margin-left: 30px;
+  margin-right: 20px;
   text-align: left;
 }
 #side-block{
   padding-bottom: 15px;
   align-items: center;
-  margin:15px;
+  margin:20px;
 }
 #progressbar{
     margin: 10px;
@@ -48,7 +53,6 @@ img{
 span {
     display: block;
     text-align: center;
-    font-size: small;
   }
 .display{
   text-align: center;
@@ -149,4 +153,8 @@ ul.list-style{
     margin-top: -10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+}
+
+li {
+  margin-bottom: 5px;;
 }
