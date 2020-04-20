@@ -31,7 +31,7 @@ body {
   background: #e8e4e430;
   border-radius: 10px 50px 50px 10px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 #sideblock-content {
@@ -78,7 +78,7 @@ span {
   /*main bar css*/
 .name{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:30px;
+    font-size:40px;
     color: rgb(70, 70, 70);
 }
 
