@@ -30,15 +30,18 @@ body {
   margin-right: auto;
   background: #e8e4e430;
   border-radius: 10px 50px 50px 10px;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-top: 20px;
+  padding-right: 10px;
 }
 
 #sideblock-content {
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
-}
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  }
 
 #side-block{
   padding-bottom: 15px;
@@ -67,6 +70,8 @@ img{
 span {
     display: block;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
 
 .display{
