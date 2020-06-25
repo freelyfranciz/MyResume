@@ -1,5 +1,6 @@
 body{
 margin: 0;
+padding: 0;
 }
 
 #container{
@@ -14,7 +15,7 @@ margin: 0;
     padding-top: 40px;
 }
 #mainbar {
-    width:550px;
+    width:590px;
     height:auto;
     float: left;
     margin-left: 20px;
@@ -81,8 +82,8 @@ span {
 
 .mainheadings{
   font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: small;
-    font-weight: normal;
+  font-size: small;
+  font-weight: normal;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -102,13 +103,12 @@ span {
     background-color: black;
     top: 10px;
     bottom: 0;
-    left: 21%;
+    left: 18%;
   }
   
   /* Container around content */
   .container {
     position: relative;
-    width: 400px;
   }
     
   .datecontainer {
@@ -120,7 +120,7 @@ span {
 
   /* Place the container to the right */
   .right {
-    left: 21%;
+    left: 18%;
   }  
   
   /* Fix the circle for containers on the right side */
@@ -142,6 +142,8 @@ span {
     padding: 0 20px;
     background-color: white;
     position: relative;
+    text-align: justify;
+    width:480px;
   }
 
  
@@ -157,12 +159,13 @@ span {
 
 ul.list-style{
   list-style-type: square; 
-    margin-left: 10px;
-    margin-top: -10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
+  margin-left: 10px;
+  margin-top: -10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-align: justify;
 }
 
 li {
-  margin-bottom: 5px;;
+  margin-bottom: 5px;
 }
