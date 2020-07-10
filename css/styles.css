@@ -65,7 +65,7 @@ body {
 img{
     border-radius: 70%;
     width: 150px;
-    height: 180px;
+    height: 170px;
 }
 span {
     display: block;
@@ -116,26 +116,26 @@ span {
     background-color: black;
     top: 10px;
     bottom: 0;
-    left: 21%;
+    left: 19%;
   }
   
   /* Container around content */
   .container {
     position: relative;
-    width: 500px;
+    width: 510px;
   }
     
   .datecontainer {
     position: absolute;    
     width: 80px;
     text-align: right;
-    margin-top: -15px;
+    margin-top: -10px;
     margin-left: 10px;
   }
 
   /* Place the container to the right */
   .right {
-    left: 21%;
+    left: 19%;
   }  
   
   /* Fix the circle for containers on the right side */
@@ -163,18 +163,20 @@ span {
 /*Timeline sub heading*/
 .heading {
   color: rgb(70, 70, 70);
+  margin: 15px 0 0 0;
 }
 .subheading{
     color: rgb(70, 70, 70);
     font-style: italic;
+    margin: 0;
 }
 
 ul.list-style{
   list-style-type: square; 
-    margin-left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     text-align: justify;
+    padding: 0 0 0 20px;
 }
 .icon-margin {
   margin-right: 5px;
